@@ -10,11 +10,11 @@
 # puts intentos
 
 
-password = ARGV[0]  #con ARGV se realiza prueba inmediata
+clave = ARGV[0]  #con ARGV se realiza prueba inmediata
 nueva = "a"
 intentos = 0
 
-while password != nueva 
+while clave != nueva 
     nueva = nueva.next 
     intentos += 1
 end
