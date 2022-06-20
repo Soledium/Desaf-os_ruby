@@ -11,9 +11,10 @@ data.each do |i|
 end
 print ventas
 ventas.each do |j|
-    aumentoVentas.push(j * 1.10)
-    print aumentoVentas
+    aumentoVentas.push((j * 1.10).round(2))
 end
+print aumentoVentas
+
 
 
 
